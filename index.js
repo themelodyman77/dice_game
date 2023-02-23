@@ -6,11 +6,11 @@ var target1 = document.querySelectorAll("img")[1];
 target1.setAttribute("src","dice"+(randomenumber_var2)+'.png');
 if(randomenumber_var > randomenumber_var2)
 {
-    document.querySelector("h1").textContent = "Player1 has won!!!";
+    document.querySelector("centre").textContent = "Player1 has won!!!";
 }
 else if(randomenumber_var < randomenumber_var2){
-    document.querySelector("h1").textContent = "Player2 has won!!!";
+    document.querySelector("centre").textContent = "Player2 has won!!!";
 }
 else{
-    document.querySelector("h1").textContent = "Draw!!!"
+    document.querySelector("centre").textContent = "Draw!!!"
 }
